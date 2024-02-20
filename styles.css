@@ -1,76 +1,83 @@
+/* Styles for the body of the document */
 body {
-  text-align: center;
-  background-color: #283149;
+  text-align: center; /* Center-align text within the body */
+  background-color: #283149; /* Set the background color */
 }
 
+/* Styles for Heading 1 (h1) */
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  font-size: 5rem; /* Set the font size */
+  color: #DBEDF3; /* Set the text color */
+  font-family: "Arvo", cursive; /* Use the "Arvo" font with fallback to cursive */
+  text-shadow: 3px 0 #DA0463; /* Add a text shadow */
 }
 
+/* Styles for the footer */
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  color: #DBEDF3; /* Set the text color */
+  font-family: sans-serif; /* Use a sans-serif font */
 }
 
+/* Styles for specific drum buttons with corresponding class names */
 .w {
-  background-image: url("images/tom1.png");
+  background-image: url("images/tom1.png"); /* Set background image */
 }
 
 .a {
-  background-image: url("images/tom2.png");
+  background-image: url("images/tom2.png"); /* Set background image */
 }
 
 .s {
-  background-image: url("images/tom3.png");
+  background-image: url("images/tom3.png"); /* Set background image */
 }
 
 .d {
-  background-image: url("images/tom4.png");
+  background-image: url("images/tom4.png"); /* Set background image */
 }
 
 .j {
-  background-image: url("images/snare.png");
+  background-image: url("images/snare.png"); /* Set background image */
 }
 
 .k {
-  background-image: url("images/crash.png");
+  background-image: url("images/crash.png"); /* Set background image */
 }
 
 .l {
-  background-image: url("images/kick.png");
+  background-image: url("images/kick.png"); /* Set background image */
 }
 
+/* Styles for the drum button container */
 .set {
-  margin: 10% auto;
+  margin: 10% auto; /* Set margin for centering */
 }
 
+/* Styles for the "pressed" class (applied when a button is pressed) */
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #DBEDF3; /* Add box shadow */
+  opacity: 0.5; /* Set opacity */
 }
 
+/* Additional styles for a class named "red" (not used in the provided HTML) */
 .red {
-  color: red;
+  color: red; /* Set text color to red */
 }
 
+/* Styles for the generic drum button class */
 .drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+  outline: none; /* Remove outline */
+  border: 10px solid #404B69; /* Set border style and color */
+  font-size: 5rem; /* Set font size */
+  font-family: 'Arvo', cursive; /* Use the "Arvo" font with fallback to cursive */
+  line-height: 2; /* Set line height */
+  font-weight: 900; /* Set font weight */
+  color: #DA0463; /* Set text color */
+  text-shadow: 3px 0 #DBEDF3; /* Add a text shadow */
+  border-radius: 15px; /* Set border radius */
+  display: inline-block; /* Display as inline-block */
+  width: 140px; /* Set width */
+  height: 150px; /* Set height */
+  text-align: center; /* Center-align text */
+  margin: 10px; /* Set margin */
+  background-color: white; /* Set background color */
 }
